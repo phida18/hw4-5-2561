@@ -1,0 +1,58 @@
+<!Doctype html>
+
+<html>
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+      $(document).ready(function(){
+            $("button").click(function(){
+                $("#div1").fadeToggle("3000");
+                $("#div2").fadeToggle("3000");
+               
+            });
+        });
+        </script>
+</head>
+<body bgcolor="#FF9933">
+  <center>
+                <button>MENU</button>
+                <br>
+                <br>
+            <div id="div1" <li><a href="index.html">Index</a></li> </div>
+            <br>
+            <div id="div2" <li><a href="home.html">Home Login</a></li> </div>
+            <br>
+            
+  <div id="reg">
+  <form action="" name="regis">
+    <p>
+      Firstname*
+    </p>
+    <input type="text" name="firstname"><br>
+    <p>
+      Lastname*
+    </p>
+    <input type="text" name="lastname"><br>
+    <p>
+      Age*
+    </p>
+    <input type="number" name="age"><br>
+    <p>
+      Sex*
+    </p>
+    <input type="radio" name="sex" value="male" checked>Male
+    <input type="radio" name="sex" value="female">Female<br>
+    <p>
+      Email/Username*
+    </p>
+    <input type="text" name="username"><br>
+    <p>
+      Password*
+    </p>
+    <input type="password" name="password"><br> <br>
+    <button onclick="">Sign in</button>
+  </form>
+  </div>
+</center>
+</body>
+</html>
